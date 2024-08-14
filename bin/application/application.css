@@ -1,0 +1,44 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.white-bg {
+	-fx-background-color: #fff;
+	-fx-border-color: #000;
+	-fx-border-width: .4px .4px .4px 0px;
+}
+
+.left-form{
+	-fx-background-color: linear-gradient( to bottom right, #790918, #db8b41);
+	-fx-border-color: #000;
+	-fx-border-width: .4px .0px .4px .4px;
+}
+
+.textField {
+	-fx-background-color: #fff;
+	-fx-border-color: #ab1515;
+	-fx-border-width: 0px 0px .8px 0px;
+	-fx-font-size: 13px;
+	-fx-font-family: "Tahoma";
+}
+
+.textField:focused{
+	-fx-border-color: linear-gradient(to bottom right,  #790918, #db8b41);
+	-fx-border-width: 0px 0px 1.5px 0px;
+}
+
+.login-btn{
+	-fx-background-color: linear-gradient( to bottom right, #790918, #db8b41);
+	-fx-text-fill: #fff;
+	-fx-background-radius: 15px 4px 15px 4px;
+	-fx-font-size: 16px;
+	-fx-cursor: hand ;
+}
+
+.close-btn {
+	-fx-background-color: #fff;
+	-fx-cursor: hand; 
+}
+
+.close-btn:hover{
+	-fx-background-color: #ab1515;
+}
+
